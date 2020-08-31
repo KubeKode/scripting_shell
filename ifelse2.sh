@@ -1,0 +1,14 @@
+#! /bin/bash 
+read X echo "\n"
+read Y
+
+if [ "$X" == "$Y" ] 
+then
+    echo "X is equal to Y "
+elif [ "$X" -gt "$Y" ] 
+then
+    echo "X is greater than Y"
+elif [ "$X" -lt "$Y" ] 
+then
+    echo "X is less than Y  "
+fi 
